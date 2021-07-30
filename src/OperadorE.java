@@ -13,6 +13,12 @@ public class OperadorE {
 		senha = leitor.next();	
 		//Aqui é preciso criar um if que verifique as duas condições para o login ser bem sucedido
 		
+		if (usuario.equalsIgnoreCase("administrador") && senha.equals("123")) {
+			System.out.println("Acesso concedido");
+		}else {
+			System.out.println("usuário ou senha inválidos");
+		}
+		
 		
 		
 		leitor.close();
