@@ -18,7 +18,7 @@ public class OperadorXou {
 			System.out.println("Ligando os ventiladores");
 
 		} else {
-			System.out.println("Entrar em contat com um agrônomo");
+			System.out.println("Entrar em contato com um agrônomo");
 		}
 		
 		
